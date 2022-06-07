@@ -1,0 +1,77 @@
+.hero {
+    background-color: #1f2937;
+    padding: 0 150px;
+    padding-bottom: 70px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Description {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.Welcome-words {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.intro {
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    align-self: center;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 10px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    align-self: flex-start;
+}
