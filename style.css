@@ -75,3 +75,30 @@ button {
     padding: 10px;
     align-self: flex-start;
 }
+
+.part-two {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    padding-top: 50px;
+}
+
+.activities{
+    display: flex;
+    flex-shrink: 1;
+    gap: 50px;
+}
+
+.activities img{
+    width: 200px;
+    height: auto;
+}
